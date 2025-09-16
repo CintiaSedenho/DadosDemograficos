@@ -15,6 +15,7 @@ A planilha foi desenvolvida com o objetivo de facilitar a análise de dados demo
 🔗 Navegação por meio de links interativos dentro da própria planilha
 
 
+
 🧭 Filtros por:
 
 Estado / Município
