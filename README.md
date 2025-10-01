@@ -1,10 +1,10 @@
 📊 Dados Demográficos
 
-Este repositório contém uma planilha Excel interativa que coleta dados do IBGE (Instituto Brasileiro de Geografia e Estatística) e permite a visualização dinâmica através de gráficos, listas suspensas e links interativos.
+Este repositório contém um Dashboard interativo que coleta dados do IBGE (Instituto Brasileiro de Geografia e Estatística) e permite a visualização dinâmica através de gráficos, listas suspensas e links interativos.
 
 🔍 Visão Geral
 
-A planilha foi desenvolvida com o objetivo de facilitar a análise de dados demográficos, econômicos e sociais fornecidos pelo IBGE. Os usuários podem selecionar diferentes variáveis e regiões por meio de menus suspensos, e os gráficos se atualizam automaticamente conforme a seleção.
+O dashboard foi desenvolvida com o objetivo de facilitar a análise de dados demográficos, econômicos e sociais fornecidos pelo IBGE. Os usuários podem selecionar diferentes variáveis e regiões por meio de menus suspensos, e os gráficos se atualizam automaticamente conforme a seleção.
 
 🧰 Funcionalidades
 
@@ -21,3 +21,5 @@ A planilha foi desenvolvida com o objetivo de facilitar a análise de dados demo
 Estado / Município
 
 Indicadores econômicos, populacionais ou sociais
+
+Link: https://docs.google.com/spreadsheets/d/1Pz1FY93kg2XKZOhI1wcyTP956rgFPRIL9SrJXg_opA0/edit?usp=sharing
