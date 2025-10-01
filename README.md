@@ -20,6 +20,5 @@ O dashboard foi desenvolvida com o objetivo de facilitar a análise de dados dem
 
 Estado / Município
 
-Indicadores econômicos, populacionais ou sociais
 
 Link: https://docs.google.com/spreadsheets/d/1Pz1FY93kg2XKZOhI1wcyTP956rgFPRIL9SrJXg_opA0/edit?usp=sharing
