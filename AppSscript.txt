@@ -69,7 +69,3 @@ function getCitiesFromMunicipios(sigla) {
 
   return cidades;
 }
-
-
-  return cidades;
-}
