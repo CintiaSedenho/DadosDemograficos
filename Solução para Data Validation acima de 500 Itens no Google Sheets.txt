@@ -1,29 +1,29 @@
 📌 Por que é necessário usar uma aba auxiliar?
-
 Limitação do menu "Dados > Validação de dados":
 Ao usar o menu nativo do Sheets para criar uma lista suspensa com valores de um intervalo, ele exige que esse intervalo seja estático — como Aux!A1:A100.
 Mas você não pode configurar esse intervalo de forma dinâmica com base em fórmulas ou em eventos (como uma escolha de estado).
 Além disso, você não consegue alterar dinamicamente o conteúdo do intervalo de validação usando apenas fórmulas nativas.
-Com script, você pode:
-Atualizar o conteúdo da aba Aux dinamicamente (como no seu loop for);
-Criar programaticamente uma regra de validação que aponta para esse intervalo;
-Fazer tudo isso automaticamente quando o estado mudar, sem precisar reconfigurar nada manualmente.
 
 ❌ Por que não funciona ao configurar manualmente a validação via menu?
 Quando você tenta:
 Ir no menu Dados > Validação de dados;
 Escolher "Intervalo" e colocar, por exemplo, Aux!A1:A100...
+
 Você está criando uma regra estática. E há dois problemas:
-1. A ordem da execução manual vs script:
-O menu não "espera" você atualizar a lista na aba Aux.
+1. A ordem da execução manual vs script: O menu não "espera" você atualizar a lista na aba Aux.
 Se você alterar o estado (D11) e a lista Aux ainda estiver com os dados antigos, a lista suspensa vai mostrar valores errados ou desatualizados.
-2. Falta de automação:
-O menu manual não consegue reagir a eventos (como onEdit) ou atualizar sozinho.
+2. Falta de automação: O menu manual não consegue reagir a eventos (como onEdit) ou atualizar sozinho.
 É necessário reconfigurar ou usar fórmulas avançadas (como INDIRECT) — e mesmo assim, com limitações.
 
-✅ Por que o script funciona?
+✅Com script, você pode:
+Atualizar o conteúdo da aba Aux dinamicamente (como no seu loop for);
+Criar programaticamente uma regra de validação que aponta para esse intervalo;
+Fazer tudo isso automaticamente quando o estado mudar, sem precisar reconfigurar nada manualmente.
+
+Por que o script funciona?
 Porque ele faz tudo de forma automática e sincronizada:
 Atualiza a aba auxiliar no momento certo (com as cidades corretas);
 Aplica a validação de dados imediatamente depois, com os novos dados;
 Usa um intervalo estático na forma, mas dinâmico no conteúdo (como Aux!A1:A50).
+
 Isso permite escalar o comportamento; cada novo estado gera uma nova lista de cidades, que pode ter qualquer tamanho, sem precisar reconfigurar nada manualmente.
